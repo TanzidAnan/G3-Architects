@@ -4,18 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid red;
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Html Table</h1>
     <table>
+        <caption>Empolyee salary Table</caption>
         <thead>
-
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
         </thead>
         <tbody>
-
+            <tr>
+                <td>1</td>
+                <td>Tanzid</td>
+                <td>anan Web Ai</td>
+                <td>$20000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Marzan</td>
+                <td>anan Web bd</td>
+                <td>$50000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rabiul</td>
+                <td>anan Web bd</td>
+                <td>$50000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Joshim</td>
+                <td>anan Web bd</td>
+                <td>$50000</td>
+            </tr>
         </tbody>
         <tfoot>
-            
+            <tr>
+                <td colspan="4">Total Employee: 4</td>
+            </tr>
         </tfoot>
     </table>
 </body>
